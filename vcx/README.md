@@ -65,10 +65,10 @@ export PYTHONPATH=/Users/[your_username]/[path_to_sdk]/vcx/libvcx/vcx-indy-sdk/w
 export PATH="$HOME/.cargo/bin:$PATH"  
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/local/Cellar/zeromq/4.2.5/lib/pkgconfig:/usr/local/Cellar/libsodium/1.0.12/lib/pkgconfig  
 2) git clone this repository
-3) cd sdk/vcx/libvcx/build/macos
+3) cd sdk/vcx/libvcx/build_scripts/macos
 4) ./mac.01.libindy.setup.sh
 5) source ./mac.02.libindy.env.sh
-6) ./mac.03.libindy.build.sh > mac.03.libindy.build.sh 2<&1
+6) ./mac.03.libindy.build.sh > mac.03.libindy.build.sh.out 2<&1
 7) ./mac.04.libvcx.setup.sh
 8) source ./mac.05.libvcx.env.sh
 9) ./mac.06.libvcx.build.sh > mac.06.libvcx.build.sh.out 2>&1
